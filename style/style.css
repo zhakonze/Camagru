@@ -1,0 +1,506 @@
+    html, body {
+        
+    background-image: url("https://hdwallsource.com/img/2014/4/colorful-background-18951-19439-hd-wallpapers.jpg");
+    background-size: cover;
+    /*position: fixed;*/
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: white;
+    }
+
+    .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    opacity: 0.5;
+    }
+
+    .tab {
+    width: 100%;
+    height: 100%;
+    }
+
+    #container {
+        width: 55%;
+        margin: 1.5%;
+        display: inline-block;
+    }
+
+    #con {
+        width: 25%;
+        height: 20%;
+        margin-left: auto;
+        margin-right: auto;
+        display: inline-block;
+    }
+
+    .cap {
+        display: block;
+        padding: 0.5%;
+        background: -webkit-linear-gradient(top, grey, black, white);
+        color: red;
+        width: 100px; 
+        border-radius: 7%;
+        font-family: "Optima";
+        position: center;
+        margin: 10px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #videoElement {
+        display: block;
+        width: 100%;
+        background-color: #666;
+        border: 5px #333 solid;
+    }
+
+    #videoEle {
+        position:center;
+        width: 100%;
+        background-image: url("https://media.giphy.com/media/mCGZhRjavuqYg/giphy.gif");
+        border: 5px #333 solid;
+    }
+
+    .cat {
+       
+    border-radius: 6px;
+    background: -webkit-linear-gradient(left,black , grey, white, grey, black);
+    margin: left;
+    position: relative;
+    right: 9px;
+    }
+
+    td tr {
+    width:  10%;
+    height: 5%;
+    }
+
+    #canvas {
+        width:  100%;
+        height: 100%;
+        border: 5px #333 solid;
+    }
+
+    .image-1 {
+	width:	60px;
+	height: 60px;
+	}
+
+    .thumbnail {
+        display: inline-block;
+        margin: 1.5%;
+        vertical-align: top;
+        width: 35%;
+    }
+
+    .image-5 {
+    width:  10%;
+    height: 10%;
+    }
+    .main-wrapper {
+    width: 100%;
+    }
+
+    .sign{
+    float: right;
+    font-family: "monospace";
+    font-size: .8em;
+    color: white;
+    }
+
+    .Regform {
+    }
+
+    .Regform input{
+    width: 200px;
+    height: 20px;
+    border-radius: 6px;
+    text-align: center;
+    }
+
+    .Regform button {
+    width:100px;
+    height: 30px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    font-family: Optima;ßßßß
+    }
+
+    .mainC {
+        font-family: Optima;
+        width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        border: 3px #eee solid;
+        background-color: #eeeeee55;
+        border-radius: 9px;
+    }
+    .Dec {
+    background-image: url("bub.png");
+    }
+
+    ul {
+    text-align: left;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    }
+
+    li {
+    display: inline-block;
+    }
+
+    li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    font-family: Optima;
+    text-decoration: none;
+    transition-duration: 1s;
+    }
+
+    li a:hover {
+    background-color: grey;
+    border-radius: 6px;
+    transition-duration: 1s;
+    }
+
+    .login {
+    left: 100px;
+    text-align: right;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    }
+    .login span{
+    left: 100px;
+    text-align: right;
+    }
+    .login{
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    float: right;
+
+    }
+
+    .login:hover {
+    background-color: #
+    }
+
+    .Register {
+    left: 100px;
+    text-align: right;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-family: Optima;
+    }
+
+    .Register span{
+    left: 100px;
+    text-align: right;
+    font-family: Optima;
+    }
+
+    .Register{
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    float: right;
+    font-family: Optima;
+
+    }
+
+    .Q {
+    font-family: Optima;
+    font-size: 1vw; 
+    }
+
+    .R {
+    font-family: Optima;
+    font-size: 1vw; 
+    }
+
+    p{
+    text-align: center;
+    }
+
+    .Gal {
+    float-right:20px;
+    }
+
+    a {
+    text-decoration: none;
+    color: white;
+    }
+
+/* Dropdown Button */
+.dropbtn {
+    display: block;
+    height: 25px;
+    width: 100px;
+    background-color: black;
+    color: white;
+    padding: 5px;
+    margin: 5px;
+    margin-left: 0;
+    font-size: 12px;
+    border: none;
+    cursor: pointer;
+    border: 1px #eee solid;
+    border-radius: 15px;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: grey}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    background-color: grey;
+}
+#capture {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#wrapper {
+    width:  80vw;
+    min-width: 340px;
+    max-width: 1280px;
+    padding: 0;
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+                    
+        
+.flash-image {
+    width: 714px;
+    height: 714x;
+    position: absolute;
+}
+
+.hide {
+    display: none;
+}
+
+.overlay {
+    position: absolute;
+    width: 20vw;
+    height: 25vh;
+    top: 12vw;
+    right:20vw;
+    bottom: 50;
+}
+
+.game-cover:hover{
+    border-radius: 10px;
+    transition-duration: 1s;
+}
+
+.imageDiv {
+    padding: 25px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    width: 20vw;
+    height: 790px;
+    float: left;
+    border: 2px solid gray;
+    border-radius: 10px;
+    background: -webkit-linear-gradient(top,grey , black);
+}
+
+.grey{
+    filter: invert(100%);
+}
+
+@keyframes likeAnimation {
+  0%   { transform: scale(30); }
+  100% { transform: scale(1); }
+}
+textarea {
+    width: 20vw;
+    height: 5vh;
+    border: 2px solid 	gray;
+    background-color: #fff;
+    border-radius: 4px;
+    resize: none;
+}
+
+button {
+    width: 5vw;
+    height: 25px;
+    background-color: gray;
+    border-radius: 4px;
+    color: white;
+}
+
+.comBox{
+    width: 19vw;
+    padding: 10px;
+    margin-bottom: 4px;
+    background-color: grey;
+    border-radius: 4px;
+    overflow-y: auto;
+}
+
+.profilePic {
+    width: 100%;
+    height: 50%;
+}
+
+.comDiv {
+    overflow-y: scroll;
+    max-height: 10vw;
+    border-bottom-right-radius: 10px;
+}
+.try{
+    width: 100%;
+    height: 200px;
+    overflow-y: auto;
+}
+
+.comSubmit {
+    width: 100px;
+}
+
+
+
+
+.uplike {
+    width: 25px;
+    margin-bottom: 12px;
+}
+
+.del {
+    text-align: center;
+    border: 1px #eee solid;
+    border-radius: 4px;
+    width: 100px;
+    height: 21px;
+    background-color: #990000;
+    margin-bottom: 10px;
+}
+
+.like {
+    border: none;
+    
+}
+
+.lik {
+    background-color: white;
+    width: 25px;
+    color: 	#5B6D9F;
+    font-size: 10px;
+    border: 2px solid 	#5B6D9F;
+    border-radius: 4px;
+}
+
+
+.logA {
+    float: right;
+    margin-right: 15px;
+}
+
+
+
+
+
+
+
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 3.2vw;
+  height: 3.5vh;
+}
+
+/* Hide default HTML checkbox */
+.switch input {display:none;}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: black;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #2196F3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+.clearfix
+{
+    clear: both;
+}
