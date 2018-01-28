@@ -1,8 +1,8 @@
 <?php
 
 include_once ('database.php');
-$user = 'root';
-$password = 'UCyurFzh';
+$user = '*******';
+$password = '************';
 $dsn = 'mysql:host=localhost';
 try{
 	$concreate = new PDO($dsn, $user, $password);
