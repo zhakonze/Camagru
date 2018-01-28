@@ -1,8 +1,8 @@
 <?php
 
-$username = 'root';
+$username = '*****';
 $dsn = 'mysql:host=localhost;dbname=camagru;port=8080';
-$password = "UCyurFzh";
+$password = "**********";
 
 try{
 	$db = new PDO($dsn, $username, $password);
